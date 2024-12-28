@@ -19,3 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.categories-swiper .swiper-button-next,
+.categories-swiper .swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.categories-swiper .swiper-button-next:after,
+.categories-swiper .swiper-button-prev:after {
+  font-size: 14px;
+  color: #666;
+}
+
+.categories-swiper .swiper-button-disabled {
+  opacity: 0;
+}
